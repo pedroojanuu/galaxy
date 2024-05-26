@@ -35,6 +35,18 @@ deactivate
 
 ## Execução
 
+Todo o código encontra-se sob a forma de Jupyter Notebooks.
+
+O trabalho desenvolvido pode ser encarado como contendo 3 fases/passos:
+
+ - 1 &mdash; Pré-processamento dos dados
+    - Seguir o ficheiro `data.ipynb`
+ - 2 &mdash; Exploração dos modelos de classificação
+    - No ficheiro `algorithms_discovery.ipynb`, os vários modelos de classificação disponíveis, bem como combinações de diferentes valores para os respetivos parâmetros, são testados com um subconjunto dos dados, de modo a descobrir, para cada modelo, que conjunto de parâmetros leva a melhores resultados.
+ - 3 &mdash; Execução completa
+    - Por último, `algorithms_complete.ipynb` comporta a execução dos vários modelos de classificação, com os parâmetros obtidos na fase anterior e, desta vez, sobre o conjunto completo* dos dados.
+
+*Conforme os ajustes levados a cabo na fase de pré-processamento, que incluem corte de alguns objetos.
 
 ***
 
